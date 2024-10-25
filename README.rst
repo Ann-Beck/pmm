@@ -1,5 +1,5 @@
 ###########
-pytest-mqtt
+Beth's great pytest-mqtt
 ###########
 
 |
