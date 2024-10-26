@@ -8,6 +8,9 @@ def test_basic_submit_text_receive_text(mosquitto, capmqtt):
     """
     Basic submit/receive roundtrip, with text payload (`str`).
 
+
+    
+
     By using the module-wide `capmqtt_decode_utf8` setting, the payloads
     will be received as `str`, after decoding them from `utf-8`.
     Otherwise, message payloads would be recorded as `bytes`.
