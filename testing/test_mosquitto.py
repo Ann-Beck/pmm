@@ -3,6 +3,9 @@ import pytest
 from pytest_mqtt.util import delay
 from testing.util import DummyServer
 
+"""
+Why do we need mosquitos at all they are not nice.
+"""
 
 @pytest.fixture(scope="session")
 @pytest.mark.early

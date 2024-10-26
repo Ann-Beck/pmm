@@ -6,3 +6,6 @@ from pytest_mqtt import __version__
 
 def test_app_version():
     assert isinstance(parse_version(__version__), Version)
+
+def test_app_version_best():
+    assert isinstance(parse_version(__version__), Version)
