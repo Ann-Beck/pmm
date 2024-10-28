@@ -86,6 +86,8 @@ def test_basic_submit_text_receive_text_config(configure_capmqtt_decode_utf8, mo
     """
     Basic submit/receive roundtrip, with text payload (`str`).
 
+    This is the best place to do what you want
+
     By using the global `capmqtt_decode_utf8` config option, the payloads
     will be received as `str`, after decoding them from `utf-8`.
     """
