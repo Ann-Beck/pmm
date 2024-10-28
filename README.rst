@@ -1,3 +1,14 @@
+
+
+> [!IMPORTANT]
+> # This is NOT a real repo/project
+> This is a copy of a real repo, but not connect to the 
+> upstream repo and will never be merged back.
+>
+> This copy is just for learning and exploring 
+> how GitHub works.
+
+
 ###########
 Beth's great pytest-mqtt
 ###########
